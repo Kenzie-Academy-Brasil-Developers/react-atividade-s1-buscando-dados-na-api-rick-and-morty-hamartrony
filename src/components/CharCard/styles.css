@@ -1,8 +1,88 @@
-.card{
-    width: 320px;
-    height: 410px;
+
+.Alive{
+    width: 180px;
+    height: 220px;
     background-color: rgb(25, 88, 88);
     margin-bottom: 20px;
     border-radius: 15px;
+
+}
+
+
+.Dead{
+    width: 180px;
+    height: 220px;
+    background-color: rgb(177, 36, 55);
+    margin-bottom: 20px;
+    border-radius: 15px;
+
+}
+
+
+
+img{
+    width: 175px;
+    height: 150px;
+    
+}
+
+h2{
+    font-size: 15px;
+    padding: 0px;
+    margin:10px 0px 5px 0px;
+
+}
+
+p{
+    font-size: 10px;
+    margin:0px 0px 5px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 600px){
+    
+
+.Alive{
+    width: 320px;
+    height: 410px;
+  
+
+}
+
+.Dead{
+    width: 320px;
+    height: 410px;
+
+
+}
+
+img{
+    width: auto;
+    height: auto;
+    
+}
+
+h2{
+    font-size: 25px;
+    padding: 0px;
+    margin:10px 0px 5px 0px;
+
+}
+
+p{
+    font-size: 20px;
+    margin:0px 0px 5px 0px;
+}
+
+
 
 }
